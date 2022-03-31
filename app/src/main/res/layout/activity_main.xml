@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="MSD QUIZ" />
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="111dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:shadowColor="#F2818181"
+        android:textColor="#FD000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="203dp"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="144dp"
+        android:layout_marginRight="144dp"
+        android:layout_marginBottom="231dp"
+        android:gravity="center_vertical"
+        android:text="@string/PR"
+        android:textColor="#5C6BC0"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/true_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#1DCE26"
+            android:text="@string/true_button"
+            android:textAllCaps="false"
+            android:textColor="#0A0909"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/false_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#F0EC1010"
+            android:text="@string/false_button"
+            android:textAllCaps="false"
+            android:textColor="#FD0E0C0C"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</RelativeLayout>
