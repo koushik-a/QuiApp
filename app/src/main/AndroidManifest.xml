@@ -13,19 +13,27 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/quiz_icc"
+        android:icon="@drawable/ic_launcher_foreground"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/quiz_icc"
+        android:roundIcon="@drawable/ic_launcher_foreground"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".MainActivity">
+
+        <activity android:name="com.example.quizapp.startscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
+        <activity android:name="com.example.quizapp.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.quizapp.rating"/>
+</application>
 </manifest>

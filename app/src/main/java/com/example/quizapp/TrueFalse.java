@@ -1,12 +1,12 @@
 package com.example.quizapp;
 
+// this is true or false activity
 public class TrueFalse {
 
-    private int mQuestionsID;
-    private boolean mAnswer;
+    private int mQuestionsID;// question id
+    private boolean mAnswer; // answer variable
 
-    // Create a constructor
-
+    // Constructor
     public TrueFalse(int questionResourceID,boolean trueOrFalse){
         mQuestionsID=questionResourceID;
         mAnswer=trueOrFalse;

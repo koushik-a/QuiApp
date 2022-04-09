@@ -5,19 +5,21 @@
     <string name="false_button">False</string>
     <string name="initial_score">Score( 0/10)</string>
     <string name="PR">Question 1 out of 10</string>
+    <string name="rating">Rating</string>
 
-
-    <string name="question_1">1. Android is Developed by Google.</string>
-    <string name="question_2">2. Android app can only written in java.</string>
-    <string name="question_3">3. Android was originally designed for digital cameras. </string>
-    <string name="question_4">4. Views in android are objects drwan on screen.</string>
-    <string name="question_5">5. Latest version of android is Pie.</string>
-    <string name="question_6">6. Android OS is Open Source.</string>
-    <string name="question_7">7. Manifest file is not necessary for every android app.</string>
-    <string name="question_8">8. User interface can be visually designed in Android studio.</string>
-    <string name="question_9">9. String.xml is located under values folder</string>
-    <string name="question_10">10. There are five standard root layouts in android.</string>
+    <string name="question_1">Android is Developed by Google.</string>
+    <string name="question_2">Android app can only written in java.</string>
+    <string name="question_3">Android was originally designed for digital cameras. </string>
+    <string name="question_4">Views in android are objects drwan on screen.</string>
+    <string name="question_5">Latest version of android is Pie.</string>
+    <string name="question_6">Android OS is Open Source.</string>
+    <string name="question_7">Manifest file is not necessary for every android app.</string>
+    <string name="question_8">User interface can be visually designed in Android studio.</string>
+    <string name="question_9">String.xml is located under values folder</string>
+    <string name="question_10">There are five standard root layouts in android.</string>
     <string name="todo">TODO</string>
+    <string name="ratetext">Please Rate Our App</string>
+    <string name="submit">Reset Quiz</string>
 
 
 </resources>

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
 
     android:background="#FFFFFF"
-    tools:context=".MainActivity">
+    tools:context=".startscreen">
 
 
     <androidx.appcompat.widget.Toolbar
@@ -18,6 +18,25 @@
         android:theme="?attr/actionBarTheme"
         app:title="MSD QUIZ" />
 
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="203dp"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="203dp"
+        android:layout_marginRight="203dp"
+        android:layout_marginBottom="417dp"
+        android:gravity="center_vertical"
+        android:text="@string/PR"
+        android:textColor="#5C6BC0"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
     <TextView
         android:id="@+id/question_text_view"
         android:layout_width="wrap_content"
@@ -28,34 +47,17 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="14dp"
-        android:layout_marginLeft="14dp"
-        android:layout_marginTop="126dp"
-        android:layout_marginEnd="26dp"
-        android:layout_marginRight="26dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="146dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
         android:shadowColor="#F2818181"
         android:textColor="#FD000000"
         android:textSize="24sp"
         android:textStyle="bold" />
 
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="203dp"
-        android:layout_height="74dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginEnd="144dp"
-        android:layout_marginRight="144dp"
-        android:layout_marginBottom="231dp"
-        android:gravity="center_vertical"
-        android:text="@string/PR"
-        android:textColor="#5C6BC0"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:visibility="visible" />
 
     <LinearLayout
         android:id="@+id/linear_layout"
@@ -68,7 +70,7 @@
         android:layout_alignParentRight="true"
         android:layout_marginStart="47dp"
         android:layout_marginLeft="47dp"
-        android:layout_marginTop="430dp"
+        android:layout_marginTop="380dp"
         android:layout_marginEnd="41dp"
         android:layout_marginRight="41dp"
         android:orientation="horizontal">
@@ -95,6 +97,7 @@
             android:textColor="#FD0E0C0C"
             android:textSize="18sp"
             android:textStyle="bold" />
+
     </LinearLayout>
 
 
